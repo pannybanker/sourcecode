@@ -1,0 +1,2197 @@
+a:2:{s:6:"expire";i:1518806762;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Penny Banker</title>
+
+        <link rel="shortcut icon" href="favicon.ico"/>
+
+        <meta charset="UTF-8">
+
+
+        <meta name="description" content="">
+
+        <meta name="keywords" content="">
+
+        <link rel="stylesheet" type="text/css" href="http://pennybanker.com/assets1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="http://pennybanker.com/assets1/css/style.css">
+
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+        <!-- Modernizr -->
+
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+
+       <!-- <script src="assets1/js/jquery-1.10.1.min.js"></script> -->
+
+        <script type="text/javascript" src="http://pennybanker.com/assets1/js/bootstrap.min.js"></script>
+        <script src="http://pennybanker.com/assets1/js/modernizr.js"></script>
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <!--[if lt IE 9]>
+    
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+    
+    
+        <![endif]-->
+
+
+
+
+
+    </head>
+
+    <body>
+
+
+
+    <div class="modal fade product_view" id="product_view">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                    <h3 style="color: rgb(24, 119, 182) !important;" class="modal-title" id="spnNTitle">Loading...</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                        <div class="col-md-12 product_img">
+
+
+                            <img onerror="this.src='http://pennybanker.com/img/news.jpg'" src="" id="spnNImage" class="img-responsive" style="height: 300px;width:100%;">
+                            <div class="banner-ticket life-bg"> <h4>Source: <span id="spnNSource"></span></h4></div>
+                            <div class="featured_posts_content">
+
+                                <ul class="post_meta nav nav-pills life-bg" style="color:#fff">
+                                  <li>&nbsp;&nbsp; <span class="glyphicon glyphicon-thumbs-up"></span>
+
+                                      (<span id="spnLCount">10</span> likes)</li>
+&nbsp;&nbsp;
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 product_content">
+
+
+                            <p id="spnNText" class="text-justify" style="color: #464545;margin-top: 20px;font-size: 18px;">
+
+                            </p>
+
+
+
+                            <div class="row">
+
+                                <!-- end col -->
+                            </div>
+                            <div class="space-ten"></div>
+                            <div class="btn-ground">
+
+                                <button type="button" class="btn btn-primary hide">
+                                    <span class="glyphicon glyphicon-heart"></span> Read Full Story</button>
+                            </div>
+
+                            <div class="col-md-12 hide">
+
+                                <h4>Tags</h4>
+                            </div>
+                        </div>
+
+
+                            <div class="col-md-12 tgext-center">
+                                <h5 style="color: rgb(24, 119, 182) !important;">Advertisements</h5>
+
+
+                                <hr>
+                                <div class="col-sm-5" style="margin-left:10px;">
+
+                                    <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                                </div>
+
+                                <div class="col-sm-5"  style="margin-left:40px;">
+
+                                    <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                                </div>
+
+                                <div class="col-sm-5"  style="margin-left:10px; margin-top:10px;">
+
+                                    <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                                </div>
+                                <div class="col-sm-5"  style="margin-left:40px;margin-top:10px;">
+
+                                    <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                                </div>
+
+                            </div>
+                    </div>
+                        <div class="col-md-4 hide tgext-center">
+                            <h5 style="color: rgb(24, 119, 182) !important;">Advertisements</h5>
+                            <hr>
+                            <div class="col-sm-12" style="margin-top:5px;">
+
+                                <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                            </div>
+                            <hr>
+                            <div class="col-sm-12" style="margin-top:5px;">
+
+                                <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                            </div>
+
+                            <hr>
+                            <div class="col-sm-12" style="margin-top:5px;">
+
+                                <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                            </div>
+
+                            <hr>
+
+                            <div class="col-sm-12" style="margin-top:5px;">
+
+                                <img src="http://pennybanker.com//img/ad1.jpeg" style="width:250px;" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Main Wrapper Start -->
+
+        <div class="main-wrapper"> 
+                   <!-- Header start -->
+
+            <header> 
+
+                <!-- Logo Container Strat -->
+
+                <div class="container logo-container">
+
+                    <div class="row">
+
+                        <div class="col-xs-12">
+
+                            <div id="search">
+
+                                <button type="button" class="close">×</button>
+
+                                <form method="post" action="http://pennybanker.com/mycon/search">
+
+                                    <input type="search" name="search" placeholder="type keyword(s) here" required />
+
+                                    <button type="submit" class="btn btn-primary">Search</button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-3 text-center"> <a href="http://pennybanker.com/" class="logo"><img src="http://pennybanker.com/assets1/images/logo.png" style="border: none"> </a> </div>
+
+                        <div class="col-sm-4 col-sm-offset-3  small-search"> 
+                            <form method="post" action="http://pennybanker.com/mycon/search">
+                                <input style="width: 298px; padding: 6px;" type="search" name="search" placeholder="type keyword(s) here" required />
+                                <button style="float:right;" type="submit" class="btn btn-primary"><i class="fa fa-search"></i>Search</button>
+                            </form>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-2 subscribe text-center">
+
+                            
+
+
+                                <a href="http://pennybanker.com/frontend" >SUBSCRIBE NOW<span>to get access</span></a>
+
+
+
+                                
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Navigation part start -->
+
+                <div class="navigation-container mainMenu">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <nav class="navbar">
+
+                                <div class="navbar-header">
+
+                                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+                                </div>
+
+                                <div class="collapse navbar-collapse js-navbar-collapse top-nav">
+
+                                    <ul class="nav navbar-nav">
+
+                                        <li class="site-nav-theme-border world-theme-bg  ">
+                                            <a href="http://pennybanker.com/mycon/world">World &nbsp; 
+                                                                                                                                                                                                                                                                                                                                                                                                &nbsp;
+                                                <i class="fa fa-caret-down dropicon" aria-hidden="true"></i></a>
+
+
+                                                                                            <ul class="nav  country-drop" style="position: absolute; width: 200px; display: none; background: tomato none repeat scroll 0% 0%;">                       
+                                                    <li class="dropdown dropdown-1 mega-dropdown">
+                                                        <a href="http://pennybanker.com/mycon/territory/us" >US/Canada</a>
+                                                    </li>                       
+                                                    <li class="dropdown dropdown-1 mega-dropdown"> 
+                                                        <a href="http://pennybanker.com/mycon/territory/au" >Latin America/ Caribbean</a>
+                                                    </li>                      
+                                                    <li class="dropdown dropdown-1 mega-dropdown"> 
+                                                        <a href="http://pennybanker.com/mycon/territory/de" >Middle East </a>
+                                                    </li>                       
+                                                    <li class="dropdown dropdown-1 mega-dropdown"> 
+                                                        <a href="http://pennybanker.com/mycon/territory/gb" >UK</a>
+                                                    </li>                       
+                                                    <li class="dropdown dropdown-1 mega-dropdown"> 
+                                                        <a href="http://pennybanker.com/mycon/territory/af" >Africa</a>
+                                                    </li>                       
+                                                    <li class="dropdown dropdown-1 mega-dropdown"> 
+                                                        <a href="http://pennybanker.com/mycon/territory/it" >Europe</a>
+                                                    </li>                                          
+                                                    <li class="dropdown dropdown-1 mega-dropdown">
+                                                        <a href="http://pennybanker.com/mycon/territory/in" >Asia Pacific</a>
+                                                    </li>                    
+                                                </ul>  
+                                                                                    </li>
+                                        <li class="site-nav-theme-border news-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news">News</a>
+
+                                                                                    </li>
+                                        <li class="site-nav-theme-border economy-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/economics">Economy</a>
+                                            
+                                        </li>
+                                        <li class="site-nav-theme-border business-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/business">Business</a>
+                                            
+                                        </li>
+                                        <li class="site-nav-theme-border sci-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/tech">Sci/Tech</a>
+
+                                                                                    </li>
+                                        <li class="site-nav-theme-border markets-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/market">Markets</a>
+
+                                                                                    </li>
+                                        <li class="site-nav-theme-border arts-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/art_life">Arts</a>
+
+                                                                                    </li>
+                                        <li class="site-nav-theme-border life-theme-bg hide  ">
+                                                                                        <a href="http://pennybanker.com/mycon/life/">Life</a>
+                                                                                    </li>
+                                        <li class="site-nav-theme-border realestate-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/real_estate">Real Estate</a>
+
+                                                                                    </li>
+                                        <li class="site-nav-theme-border sports-theme-bg  ">
+                                                                                        <a href="http://pennybanker.com/world/news/sports">Sports</a>
+
+                                                                                    </li>
+                                        <li class=" site-nav-theme-border weather-theme-bg">
+                                                                                        <a href="http://pennybanker.com/world/news/weather">Weather</a>
+
+                                                                                    </li>
+                                        <li class=" site-nav-theme-border traffic-theme-bg">
+                                                                                            <a href="http://pennybanker.com/world/news/traffic">Traffic</a>
+
+                                                                                    </li>
+
+                                    </ul>
+                                                                            <ul class="nav navbar-nav">
+
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+
+                                                <ul class="dropdown-menu" role="menu">
+
+                                                    <li><a href="http://pennybanker.com/users/dash">Dashboard</a></li>
+
+                                                    <li><a href="http://pennybanker.com/users/logout">Log Out</a></li>
+
+
+
+                                                </ul>
+
+                                            </li>
+
+                                        </ul>
+                                                                        <ul class="nav navbar-nav hidden-xs hidden-sm">
+
+                                        <li class="site-nav-theme-border traffic-theme-bg" style="background: rgb(24, 119, 182)">
+                                            <a href="#search"><i class="fa fa-search"></i></a>
+                                        </li>
+
+                                    </ul>
+
+                                    <ul class="nav navbar-nav">
+
+
+
+                                                                                                                                    <li class="site-nav-theme-border traffic-theme-bg hide" style="background: #137f39">
+                                                    <a href="http://pennybanker.com/users/logout"><i class="fa fa-user"></i> Log Out</a>
+                                                </li>
+                                                                                    
+
+
+
+
+                                        <!--      <li class="text-center"><button class="btn btn-default signin-btn">SIGN IN</button></li>
+                          
+                                      <li><a href="javascript:void(0);">Forget Password</a></li>
+                          
+                                      <li><a href="javascript:void(0);">Forget Username</a></li>
+                          
+                                      <li><p>Already a print edition subscriber, but don't have a login?</p></li>
+                          
+                                      <li><a href="javascript:void(0);" class="activate-digital">Activate your digital access.</a></li>
+                          
+                                            </ul>
+                          
+                                          </li> -->
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- /.nav-collapse --> 
+
+                            </nav>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- /Navigation part Close --> 
+
+            </header>
+
+
+            <style type="text/css">
+
+                ul.nav a:hover {
+                    text-decoration: underline !important;
+                }
+
+
+                .nav.navbar-nav li:hover > .country-drop {
+                    min-width: 1127px !important;
+                    display: flex !important;
+                    padding: 12px 0 !important;
+                    background: rgba(24, 119, 182, 0.92) !important;
+                }
+                .world-bg, .world-theme-bg:hover, .world-theme-bg a:hover {
+                    background: rgb(24, 119, 182) !important;
+                }
+
+
+                ul.country-drop a:hover {
+                    text-decoration: underline !important;
+                }
+
+                .inner-banner img {
+                    position: relative;
+                    z-index: 0 !important;
+                }
+                .banner-ticket {
+                    position: absolute;
+                    z-index: 0 !important;}
+
+
+                .nav.navbar-nav li:hover > .country-drop {
+                    min-width: 1127px !important;
+                    display: flex !important;
+                    padding: 12px 0 !important;
+                    background: rgba(66, 194, 201, 0.91) !important;
+                }
+
+                .country-drop li a {
+                    border: none !important;
+                }
+            </style>
+
+            <!-- /Header Close --> <style>
+    .featured_posts .post .featured-img.featured-img-big, .inner-page-bannerHolder .inner-banner, .inner-page-bannerHolder .inner-banner img, .banner-top-story {
+    height: auto !important;
+}
+</style>
+                                                                <div class="container">    
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+        <div class="carousel-inner" role="listbox"> 
+            <div class="item active"> 
+                <section class="row featured_posts">   
+                      
+                        
+                                                                                    <div class="col-sm-6 nopadding" style="height: 450px;">    
+                                    <div class="post"> 
+                                        <img style="height: 450px !important;" src="https://ichef.bbci.co.uk/news/1024/branded_news/6B8E/production/_100043572_nikolas_cruz_arrest_1_wptv.jpg" alt="" class="featured-img featured-img-big">  
+                                        <div class="featured_posts_content">              
+                                            <h2 class="title"><a href="#" onclick="get_new_details(135021,2)" data-toggle="modal" data-target="#product_view">Teachers 'warned' about Florida gunman</a></h2>
+                                            <ul class="post_meta nav nav-pills">             
+                                                <li><a href="#" onclick="get_new_details(135021,2)" data-toggle="modal" data-target="#product_view">2018-02-15T12:34:06Z</a></li>
+                                                <li><a href="#" onclick="get_new_details(135021,2)" data-toggle="modal" data-target="#product_view"><i class="fa fa-thumbs-o-up"></i> Read Story</a></li>
+                                            </ul>           
+                                        </div>              
+                                    </div>    
+                                </div>    
+                                <div class="col-sm-2 nopadding">   
+                                                                                                                                                                                    <div class="post"> 
+                                        <img src="https://ichef.bbci.co.uk/news/1024/branded_news/2BCF/production/_100051211_p05ybksk.jpg" alt="" class="featured-img featured-img-small">    
+                                        <div class="featured_posts_content">   
+                                            <h5 class="title"><a href="#" onclick="get_new_details(135022,2)" data-toggle="modal" data-target="#product_view" >'We watched gunman shoot our friends'</a></h5>
+                                        </div>            
+                                        <div class="clearfix"></div>   
+                                    </div>  
+                                                                                                                                                                                    <div class="post"> 
+                                        <img src="https://ichef.bbci.co.uk/images/ic/1024x576/p05ybqtd.jpg" alt="" class="featured-img featured-img-small">    
+                                        <div class="featured_posts_content">   
+                                            <h5 class="title"><a href="#" onclick="get_new_details(135023,2)" data-toggle="modal" data-target="#product_view" >Teen admits Florida shooting, police say</a></h5>
+                                        </div>            
+                                        <div class="clearfix"></div>   
+                                    </div>  
+                                                                                                                                                                                    <div class="post"> 
+                                        <img src="https://ichef.bbci.co.uk/news/1024/branded_news/6FB9/production/_100010682_mediaitem100010681.jpg" alt="" class="featured-img featured-img-small">    
+                                        <div class="featured_posts_content">   
+                                            <h5 class="title"><a href="#" onclick="get_new_details(135024,2)" data-toggle="modal" data-target="#product_view" >'100,000 orangutans' killed in 16 years</a></h5>
+                                        </div>            
+                                        <div class="clearfix"></div>   
+                                    </div>  
+                                                                                                </div>  
+                                                                        <div class="col-sm-4">    
+                        <div id="parentHorizontalTab">   
+                            <ul class="resp-tabs-list hor_1">
+                                <li>Headlines</li>           
+                                <li>Business news</li>  
+                            </ul>            
+                            <div class="resp-tabs-container hor_1" >          
+                                <div class="panel panel-default" style="height: 400px;">            
+                                    <div class="panel-body">  
+                                         
+                                            <ul class="headlines">   
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135317,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Who are the victims of the shooting at Florida's Marjory Stoneman Douglas High School?</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135318,2)" data-toggle="modal" data-target="#product_view" >
+                                                            What is the Republic of Florida? Alleged school shooter Nikolas Cruz linked to white supremacist group</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135319,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Leading International Schools 2018</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135320,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Women of the Future</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135321,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Are gun makers profiting from the Florida high school shooting?</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135322,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Here are a few ways to help victims and their families after the Florida school shooting</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135323,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Donald Trump Jr. liked a tweet claiming the FBI was too busy undermining Trump to do its "freaking job"</a></li>
+                                                                                                    <li class="news-item">
+                                                        <a href="#" onclick="get_new_details(135324,2)" data-toggle="modal" data-target="#product_view" >
+                                                            Tammy Duckworth might have to breastfeed in a bathroom off the Senate floor, says a former Senate Parliamentarian</a></li>
+                                                                                            </ul>     
+                                          
+                                    </div>             
+                                    <div class="clearfix"></div>   
+                                </div>            
+                                <div class="panel panel-default" style="display:none; height: 400px;">         
+                                    <div class="panel-body">   
+                                                                                    <ul class="financial_news">  
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135088,2)" data-toggle="modal" data-target="#product_view" >Mapping out China's Belt and Road Initiative</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135089,2)" data-toggle="modal" data-target="#product_view" >Senate blocks multiple immigration plans, stalling progress toward protections for young immigrants</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135090,2)" data-toggle="modal" data-target="#product_view" >Trump administration eviscerates bipartisan immigration plan as Senate shows little progress</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135091,2)" data-toggle="modal" data-target="#product_view" >Bitcoin recovering to $10,000 could bring in new buyers</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135092,2)" data-toggle="modal" data-target="#product_view" >Google spends $50 million to buy a division of LogMeIn that lets companies manage smart devices</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135093,2)" data-toggle="modal" data-target="#product_view" >Corporate America gets behind immigration bill that Trump threatened to veto</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135094,2)" data-toggle="modal" data-target="#product_view" >Trump inaugural committee paid $26 million to friend of first lady Melania Trump</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135095,2)" data-toggle="modal" data-target="#product_view" >Two weeks after markets freaked out, the worst appears to be over for now</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135096,2)" data-toggle="modal" data-target="#product_view" >Chinese tourists are spending billions over the next week</a></li>
+                                                                                                    <li class="news-item"><a href="#" onclick="get_new_details(135097,2)" data-toggle="modal" data-target="#product_view" >Shake Shack beats on earnings, forecasts massive expansion in 2018</a></li>
+                                                   
+                                            </ul> 
+                                                      
+                                    </div>  
+                                    </ul>                
+                                </div>               
+                                <div class="clearfix"></div>      
+                            </div>    
+                        </div>    
+                    </div>    
+            </div>    
+            </section>   
+            <section class="middle-part">   
+                <article class="col-sm-8 home-left">  
+                    <div class="row">   
+                           
+
+                                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0211%2Fr326834_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-15T12:30:00Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135152,2)" data-toggle="modal" data-target="#product_view" >The Cavaliers face a record-smashing, $300 million future</a></h4>
+                                                    <p class="list-group-item-text">If LeBron James stays in Cleveland and the Cavs keep the players they ...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0122%2Fr317583_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-16T05:51:59Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135153,2)" data-toggle="modal" data-target="#product_view" >When they got the call from JJ: 'Hey, you've made the Olympic team'</a></h4>
+                                                    <p class="list-group-item-text">Jim Johannson's message was universal: "It's great to make this call t...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0215%2Fr328783_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-16T04:06:12Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135154,2)" data-toggle="modal" data-target="#product_view" >Jacobellis fails to medal in snowboardcross</a></h4>
+                                                    <p class="list-group-item-text">United States snowboarder Lindsey Jacobellis failed to earn a medal in...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0214%2Flavar_lonzo_magic_16x9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-15T12:48:00Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135155,2)" data-toggle="modal" data-target="#product_view" >LaVar vs. the Lakers -- but where does Lonzo end up?</a></h4>
+                                                    <p class="list-group-item-text">Last year, the Lakers went all-in on Lonzo Ball -- and all that came w...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0215%2Fr328686_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-16T04:30:35Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135156,2)" data-toggle="modal" data-target="#product_view" >Sunday's seed announcement was fun, but Thursday was real</a></h4>
+                                                    <p class="list-group-item-text">Cincinnati, Purdue and Ohio State each entered the night a projected t...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0215%2Fr306674_2_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-15T13:00:23Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135157,2)" data-toggle="modal" data-target="#product_view" >Three years out, projecting NFC West titles and the team best set at QB</a></h4>
+                                                    <p class="list-group-item-text">Now that Jimmy Garoppolo has signed his deal, ESPN's NFC West reporter...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0215%2Fr328679_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-16T00:09:13Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135158,2)" data-toggle="modal" data-target="#product_view" >Welcome to the 2018 QB market, AJ McCarron: Why a guy with four NFL starts is so interesting</a></h4>
+                                                    <p class="list-group-item-text">Don't rule out the Bengals backup as a factor -- he could get paid -- ...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0215%2Fr328502_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-15T20:25:52Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135159,2)" data-toggle="modal" data-target="#product_view" >Tiger shoots 1-over par in Genesis first round</a></h4>
+                                                    <p class="list-group-item-text">Tiger Woods shot a 1-over-par 72 in the first round of the Genesis Ope...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                     
+
+                                                                                                            <div class="item col-sm-6 col-md-4">          
+                                            <div class="thumbnail"> 
+                                                <img class="group list-group-image" src="http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0214%2Fr328370_1296x729_16%2D9.jpg" alt="" />  
+                                                <div class="caption">                              
+                                                    <ul class="hgpm-meta">                       
+
+                                                        <li><span class="js-asset-timestamp">2018-02-15T15:00:28Z</span></li>    
+                                                    </ul>                                  
+                                                    <h4 class="list-group-item-heading">
+                                                        <a href="#"  onclick="get_new_details(135160,2)" data-toggle="modal" data-target="#product_view" >Is this John Calipari's most disappointing Kentucky team ever?</a></h4>
+                                                    <p class="list-group-item-text">With Kentucky missing an edge, along with a couple of pieces, could th...</p>
+                                                </div>                         
+                                            </div>                       
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                     
+
+                                       
+                            </div>
+                                            </div> 
+                    <hr>   
+                    <div class="row">  
+                          
+                                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                            <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" class="hgpfm-link" onclick="get_new_details(135071,2)" data-toggle="modal" data-target="#product_view">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="http://static1.businessinsider.com/image/5a85bf3bd030722a008b45f6-1190-625/we-should-start-looking-at-ways-to-reduce-death-that-have-nothing-to-do-with-gun-control.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Business</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">We should start looking at ways to reduce death that have nothing to d...</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" class="hgpfm-link" onclick="get_new_details(135072,2)" data-toggle="modal" data-target="#product_view">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://amp.businessinsider.com/images/5a85f5f9d0307263078b45b9-750-375.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Business</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">TOM LEE: Bitcoin will surge to new record highs by July...</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                </div>
+                         
+                    </div>  
+                    <hr>
+
+                    <div class="row">    
+                        <div class="col-xs-12">   
+                            <div id="parentHorizontalTab-2">  
+                                <ul class="resp-tabs-list hor_1">  
+                                    <li>World Indices</li>        
+                                    <li>Stock</li>          
+                                    <li>Foreign Exchange</li>  
+                                    <li>Currency Converter</li>  
+                                </ul>                   
+                                <div class="resp-tabs-container hor_1">
+                                    <div class="stock-news-holder"> 
+                                        <img src="http://pennybanker.com/assets1/images/indices.jpg" class="img-responsive img-thumbnail">  
+                                        <h4 class="text-uppercase">World Indices</h4>    
+                                        <div class="table-responsive">        
+                                            <iframe id="iframeId1" frameborder="0"  height="402" width="100%" allowtransparency="true" marginwidth="0" marginheight="0" src="https://sslindrates.forexprostools.com/index.php?force_lang=56&pairs_ids=166;27;175;172;176;177;168;167;174;954864;170;14601;53094;178;179;959210;44399;&header-text-color=%23FFFFFF&curr-name-color=%230059b0&inner-text-color=%23000000&green-text-color=%232A8215&green-background=%23B7F4C2&green-background=%23B7F4C2&red-text-color=%23DC0001&red-background=%23FFE2E2&inner-border-color=%23CBCBCB&border-color=%23cbcbcb&bg1=%23F6F6F6&bg2=%23ffffff&open=show&last_update=show"></iframe>              
+                                        </div>                  
+                                        <div class="clearfix"></div>  
+                                    </div>                  
+                                    <div class="stock-news-holder">
+                                        <img src="http://pennybanker.com/assets1/images/stocks.jpg" class="img-responsive img-thumbnail"> 
+                                        <h4 class="text-uppercase">Stock</h4>                   
+                                        <div class="table-responsive">                      
+                                            <iframe style="float:left;" width="320" noresize="noresize" scrolling="no" height="300" frameborder="0" src="https://widgets.tc2000.com/WidgetServer.ashx?id=60344"></iframe>
+                                            <iframe width="400" noresize="noresize" scrolling="no" height="300" frameborder="0" src="https://widgets.tc2000.com/WidgetServer.ashx?id=60345"></iframe>
+                                        </div>                     
+                                        <div class="clearfix"></div> 
+                                        <h4 class="text-uppercase">Leading Stock</h4> 
+                                        <div class="leadingstock">
+                                            <iframe frameborder="0" scrolling="no" height="1637" width="619" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssleqrates.forexprostools.com/index.php?force_lang=56&pairs_ids=23641;22982;23552;22983;23640;23349;23343;347;39128;345;346;6283;358;323;317;316;321;332;22860;23625;22888;22468;22091;23619;25406;25405;995066;23602;1024269;442;441;449;1024192;945627;497;564;1015176;1015253;1015205;7596;7722;943405;44248;44332;44122;44217;44225;44243;8580;32485;8576;8561;41382;41374;8808;8736;8759;8785;8747;13804;13805;13896;958807;976863;13905;13898;13910;13912;13914;958809;958810;50553;40905;51870;&header-text-color=%23FFFFFF&curr-name-color=%230059b0&inner-text-color=%23000000&green-text-color=%232A8215&green-background=%23B7F4C2&red-text-color=%23DC0001&red-background=%23FFE2E2&inner-border-color=%23CBCBCB&border-color=%23cbcbcb&bg1=%23F6F6F6&bg2=%23ffffff&last_update=show"></iframe>
+                                            <iframe frameborder="0" scrolling="no" height="1637" width="619" allowtransparency="true" marginwidth="0" marginheight="0" src="https://www.youtube.com/user/nydailynews"></iframe>
+                                        </div>
+
+                                    </div>                     
+                                    <div class="stock-news-holder">
+                                        <img src="http://pennybanker.com/assets1/images/exchange.jpg" class="img-responsive img-thumbnail">             
+                                        <h4 class="text-uppercase">Foreign Exchange</h4>  
+                                        <div class="table-responsive">           
+                                            <!--https://in.investing.com/webmaster-tools/    https://freecurrencyrates.com/en/get-widget/table#fi;Classic%20Black;600;;;USD-EUR-GBP-RUB-RUB-AED-AFN-ALL-AMD-ANG-AOA-ARS-AWG-AZN-BAM-BBD-BGN-BHD-BIF;true -->
+
+                                            <div id='gcw_mainFmiN9vD2X' class='gcw_mainFmiN9vD2X'></div>
+
+                                            <script>function reloadFmiN9vD2X() {
+                                                    var sc = document.getElementById('scFmiN9vD2X');
+                                                    if (sc)
+                                                        sc.parentNode.removeChild(sc);
+                                                    sc = document.createElement('script');
+                                                    sc.type = 'text/javascript';
+                                                    sc.charset = 'UTF-8';
+                                                    sc.async = true;
+                                                    sc.id = 'scFmiN9vD2X';
+                                                    sc.src = 'https://freecurrencyrates.com/en/widget-table?iso=USDEURGBPRUBRUBAEDAFNALLAMDANGAOAARSAWGAZNBAMBBDBGNBHDBIF&df=1&p=FmiN9vD2X&v=fi&source=yahoo&width=600&width_title=0&firstrowvalue=1&thm=cccccc,F9F9F9,A3A3A3,333333,eeeeee,cccccc,ffffff,222222,000000&title=Currency%20Converter&tzo=-330';
+                                                    var div = document.getElementById('gcw_mainFmiN9vD2X');
+                                                    div.parentNode.insertBefore(sc, div);
+                                                }
+                                                reloadFmiN9vD2X();</script>
+
+                                        </div>                   
+                                        <div class="clearfix"></div>  
+                                    </div> 
+                                    <div class="stock-news-holder">
+                                        <img src="http://pennybanker.com/assets1/images/exchange.jpg" class="img-responsive img-thumbnail">             
+                                        <h4 class="text-uppercase">Currency Converter</h4>  
+                                        <div class="table-responsive">           
+                                            <iframe height="400" width="100%" frameborder="0" scrolling="no" src="https://ssltools.forexprostools.com/currency-converter/index.php?from=17&to=12&force_lang=56"></iframe>
+                                        </div>                   
+                                        <div class="clearfix"></div>  
+                                    </div> 
+                                </div>          
+                            </div>           
+                        </div>          
+                    </div>          
+                    <hr> 
+                    <div class="row">  
+                        <h2 class="col-xs-12">Voice</h2>   
+                          
+                                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                            <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135325,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/intelligencer/2018/02/15/15-florida-school-shooting.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Guns Make Republicans Feel Safe. So We Can’t Be.</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135326,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/intelligencer/2018/02/15/15-mcconnell.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Senate Votes Down Every Immigration Proposal</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135327,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/vulture/2018/02/15/15-irreplacable-you.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">With Irreplaceable You, Netflix Does Gugu Mbatha-Raw Dirty Again</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135328,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/vulture/2018/02/14/14-star-trek-discovery.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Why Star Trek: Discovery Needs to Evolve</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135329,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/fashion/daily/2018/02/15/cathy/15-cathy-horyn.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Jacobs Fights the Bulls, Kors Goes for Showbiz</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135330,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/vulture/2018/02/14/14-ryan-murphy.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">What Ryan Murphy’s Massive Netflix Deal Means For Hollywood</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135331,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/grub/2018/02/14/magazine/14-beef-noodles.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Taiwanese Beef Noodle Soup Is Hot, Heady, and on the Rise in New York</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135332,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/vulture/2018/01/10/10-ricky-martin-chatroom.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">Ricky Martin on ACS: Versace, Coming Out, and ‘Normalizing’ Open Relationships</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135333,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/daily/vulture/2018/02/14/14-BlackPanther.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">How Black Panther Reinvents Hollywood Visions of Africa</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                                                                                                                                <div class="col-xs-12 col-sm-6 col-md-3"> 
+                                            <a href="#" onclick="get_new_details(135334,2)" data-toggle="modal" data-target="#product_view" class="hgpfm-link">
+                                                <div class="hgpfm-container">        
+                                                    <div class="hgpfm-image-wrap">
+                                                        <img class="img-responsive" src="https://pixel.nymag.com/imgs/fashion/daily/2018/02/14/nyfw-food/14-fashion-week-food-01.w1200.h630.jpg" data-crop="1_1" >
+                                                    </div>                  
+                                                    <span class="hgpfm-asset-section business-bg">Voice</span>
+                                                </div>              
+                                                <p class="hgpfm-txt">The Biggest Trend at Fashion Week Was Food</p>   
+                                            </a> 
+                                        </div>   
+                                                                                                                            </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12"> 
+                                                                                                                                                                                </div>
+                         
+                    </div>  
+                    <hr>     
+
+                </article>    
+                <article class="col-sm-4 home-right nopadding content-1">      
+                                            <div class="trending-social-holder">        
+                            <div class="trending-heading">          
+                                <h3 class="sidebar-title text-center">Music Entertainment</h3>  
+                            </div>                
+                            <ul class="right-now">  
+
+                                                                    <li> 
+                                        <a href="http://www.mtv.com/news/3065000/jennifer-aniston-justin-theroux-split/" target="_blank">
+                                            <div class="live-feed-thumb"> 
+                                                <img src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:394913?quality=0.8&format=jpg&width=1440&height=810&.jpg" alt="" class="live-feed-thumb-img" height="" width="60"> 
+                                            </div>                             
+                                            <div class="live-feed-txt">       
+                                                <div class="live-feed-layout">  
+                                                    <p class="live-feed-action">Music</p>  
+                                                    <p class="live-feed-timesince"><span class="live-feed-humanized">2018-02-15T23:55:30Z</span></p>    
+                                                </div>                               
+                                                <p class="live-feed-headline">Jennifer Aniston And Justin Theroux Split After Two Years Of Marriage</p>  
+                                            </div>                     
+                                        </a> 
+                                    </li> 
+                                                                    <li> 
+                                        <a href="http://www.mtv.com/news/3064978/ed-sheeran-ditching-pop-next-album/" target="_blank">
+                                            <div class="live-feed-thumb"> 
+                                                <img src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:394900?quality=0.8&format=jpg&width=1440&height=810&.jpg" alt="" class="live-feed-thumb-img" height="" width="60"> 
+                                            </div>                             
+                                            <div class="live-feed-txt">       
+                                                <div class="live-feed-layout">  
+                                                    <p class="live-feed-action">Music</p>  
+                                                    <p class="live-feed-timesince"><span class="live-feed-humanized">2018-02-15T22:42:31Z</span></p>    
+                                                </div>                               
+                                                <p class="live-feed-headline">Shocking But True: Ed Sheeran Is Ditching Pop For His Next Album</p>  
+                                            </div>                     
+                                        </a> 
+                                    </li> 
+                                                                    <li> 
+                                        <a href="http://www.mtv.com/news/3064887/ryan-coogler-black-panther-interview/" target="_blank">
+                                            <div class="live-feed-thumb"> 
+                                                <img src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:394791?quality=0.8&format=jpg&width=1440&height=810&.jpg" alt="" class="live-feed-thumb-img" height="" width="60"> 
+                                            </div>                             
+                                            <div class="live-feed-txt">       
+                                                <div class="live-feed-layout">  
+                                                    <p class="live-feed-action">Music</p>  
+                                                    <p class="live-feed-timesince"><span class="live-feed-humanized">2018-02-15T20:05:04Z</span></p>    
+                                                </div>                               
+                                                <p class="live-feed-headline">Ryan Coogler On The 'Dynamic' Female Energy Of Black Panther</p>  
+                                            </div>                     
+                                        </a> 
+                                    </li> 
+                                                                    <li> 
+                                        <a href="http://www.mtv.com/news/3064958/kendrick-lamar-jay-rock-future-kings-dead-video/" target="_blank">
+                                            <div class="live-feed-thumb"> 
+                                                <img src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:394892?quality=0.8&format=jpg&width=1440&height=810&.jpg" alt="" class="live-feed-thumb-img" height="" width="60"> 
+                                            </div>                             
+                                            <div class="live-feed-txt">       
+                                                <div class="live-feed-layout">  
+                                                    <p class="live-feed-action">Music</p>  
+                                                    <p class="live-feed-timesince"><span class="live-feed-humanized">2018-02-15T21:50:33Z</span></p>    
+                                                </div>                               
+                                                <p class="live-feed-headline">Kendrick Lamar, Future, And Jay Rock Are The Worst Employees In 'King's Dead' Video</p>  
+                                            </div>                     
+                                        </a> 
+                                    </li> 
+                                                                    <li> 
+                                        <a href="http://www.mtv.com/news/3065011/justin-bieber-quavo-nba-all-star-celebrity-game-2018/" target="_blank">
+                                            <div class="live-feed-thumb"> 
+                                                <img src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:394921?quality=0.8&format=jpg&width=1440&height=810&.jpg" alt="" class="live-feed-thumb-img" height="" width="60"> 
+                                            </div>                             
+                                            <div class="live-feed-txt">       
+                                                <div class="live-feed-layout">  
+                                                    <p class="live-feed-action">Music</p>  
+                                                    <p class="live-feed-timesince"><span class="live-feed-humanized">2018-02-16T02:14:30Z</span></p>    
+                                                </div>                               
+                                                <p class="live-feed-headline">Justin Bieber And Quavo Will Go Head-To-Head In The NBA All-Star Celeb Game</p>  
+                                            </div>                     
+                                        </a> 
+                                    </li> 
+                                  
+
+
+                            </ul>    
+                        </div>   
+                                                                <div class="trending-social-holder">         
+                            <div class="trending-heading">           
+                                <h3 class="sidebar-title">National Geographic</h3>    
+                            </div>             
+                            <ul> 
+                                                                                                                                            <li>
+                                            <a href="#" onclick="get_new_details(135307,2)" data-toggle="modal" data-target="#product_view" >
+                                                <div class="live-feed-full-width-image-wrap"> 
+                                                    <img src="https://pmdvod.nationalgeographic.com/NG_Video/573/935/150106-dog-meat-farm-rescue-vin_640x360_380726851880.jpg" class="img-responsive">  
+                                                    <div class="live-feed-hed-wrap">
+                                                        <span class="live-feed-video-icon"><i class="fa fa-play-circle-o"></i></span> 
+                                                        <p class="live-feed-video-headline">Dog Meat's Controversial History, From the Ancients to the Winter Olympics</p>    
+                                                    </div>                               
+                                                </div>                          
+                                            </a>
+                                        </li>
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135308,2)" data-toggle="modal" data-target="#product_view" >Dramatic Whale Hunts Depicted in Ancient Rock Art</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135309,2)" data-toggle="modal" data-target="#product_view" >Elon Musk’s Tesla in Space Could Crash Into Earth</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135310,2)" data-toggle="modal" data-target="#product_view" >This is What a Literal Bear Hug Looks Like</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135311,2)" data-toggle="modal" data-target="#product_view" >Nearly 150,000 Bornean Orangutans Lost Since 1999, Cutting Population By Half</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135312,2)" data-toggle="modal" data-target="#product_view" >Escape to Wyoming for an Action-Packed Weekend</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135313,2)" data-toggle="modal" data-target="#product_view" >Partial Solar Eclipse Thursday: How to See It</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135314,2)" data-toggle="modal" data-target="#product_view" >Smart Cities: Charleston, South Carolina</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135315,2)" data-toggle="modal" data-target="#product_view" >Fossil Footprints Are Oldest Traces of Lizards Running on Two Legs</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135316,2)" data-toggle="modal" data-target="#product_view" >How this Innovative App Became Africa's Uber</a>
+                                        </li> 
+                                                                                                                                    </ul>              
+                        </div>   
+                                        <div class="trending-social-holder">  
+                        <div class="trending-heading">    
+                            <h3 class="sidebar-title">Sports</h3>   
+                        </div>               
+                        <ul>                
+                                                                                                                                                                        <li>
+                                            <a href="http://www.bbc.co.uk/sport/live/winter-olympics/42496403" target="_blank">
+                                                <div class="live-feed-full-width-image-wrap"> 
+                                                    <img src="https://m.files.bbci.co.uk/modules/bbc-morph-sport-opengraph/1.1.1/images/bbc-sport-logo.png" class="img-responsive">  
+                                                    <div class="live-feed-hed-wrap">
+                                                        <span class="live-feed-video-icon"><i class="fa fa-play-circle-o"></i></span> 
+                                                        <p class="live-feed-video-headline">Watch Winter Olympics: Can Parsons win GB's first medal?</p>    
+                                                    </div>                               
+                                                </div>                          
+                                            </a>
+                                        </li>
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135032,2)" data-toggle="modal" data-target="#product_view" >Winter Olympics: Great Britain's Dom Parsons wins skeleton bronze medal in Pyeongchang</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135033,2)" data-toggle="modal" data-target="#product_view" >Alex McLeish to manage Scotland again on deal until 2020</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135034,2)" data-toggle="modal" data-target="#product_view" >Winter Olympics 2018: Dom Parson's wins skeleton bronze</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135035,2)" data-toggle="modal" data-target="#product_view" >Ostersunds FK 0-3 Arsenal</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135036,2)" data-toggle="modal" data-target="#product_view" >Listen: New Zealand v Australia</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135037,2)" data-toggle="modal" data-target="#product_view" >FA Cup fifth-round predictions - Lawro v YouTube star Tekkerz Kid</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135038,2)" data-toggle="modal" data-target="#product_view" >Winter Olympics 2018: Last but still dancing - Ghana's Akwasi Frimpong entertains skeleton fans</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135039,2)" data-toggle="modal" data-target="#product_view" >After Barry Bennell convictions, where now for football's sexual abuse scandal?</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135040,2)" data-toggle="modal" data-target="#product_view" >Winter Olympics: IOC defends decision to send home Adam Pengilly from Pyeongchang</a>
+                                        </li> 
+                                                                                                                                                            </ul>           
+                    </div> 
+                    
+                    
+                               
+                        <div class="trending-social-holder hide"> 
+                            <div class="trending-heading">      
+                                <h3 class="sidebar-title">Entertainment</h3> 
+                            </div>                
+                            <ul>                
+
+                                                                                                                                            <li>
+                                            <a href="#" onclick="get_new_details(135078,2)" data-toggle="modal" data-target="#product_view" >
+                                                <div class="live-feed-full-width-image-wrap"> 
+                                                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/16/campaign_images/buzzfeed-prod-fastlane-01/here-are-the-hoaxes-going-around-about-the-florid-2-27437-1518731304-0_dblbig.jpg" class="img-responsive">  
+                                                    <div class="live-feed-hed-wrap">
+                                                        <span class="live-feed-video-icon"><i class="fa fa-play-circle-o"></i></span> 
+                                                        <p class="live-feed-video-headline">Here Are The Hoaxes Going Around About The Florida School Shooting</p>    
+                                                    </div>                               
+                                                </div>                          
+                                            </a>
+                                        </li>
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135079,2)" data-toggle="modal" data-target="#product_view" >What Do You Do The Day After There’s A Mass Shooting At Your School?</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135080,2)" data-toggle="modal" data-target="#product_view" >42 Facts About '90s Teen Movies That Will Make You Say, "Wait, What?!"</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135081,2)" data-toggle="modal" data-target="#product_view" >This Is How The Sexual Misconduct Allegations Against Hedley Blew Up</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135082,2)" data-toggle="modal" data-target="#product_view" >Plan A Netflix Marathon, And We'll Tell You Which Sex Position You Are</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135083,2)" data-toggle="modal" data-target="#product_view" >We Ranked Every Disney Parent From Absolute Worst To Absolute Best</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135084,2)" data-toggle="modal" data-target="#product_view" >Jennifer Aniston And Justin Theroux Are Separating And Everyone's Heart Is Broken</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135085,2)" data-toggle="modal" data-target="#product_view" >This Far-Right YouTube Conspiracist Was Welcomed By The Government Of Myanmar</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135086,2)" data-toggle="modal" data-target="#product_view" >24 Acts Of Vandalism That Are Actually Really Funny</a>
+                                        </li> 
+                                                                                                                                                                                    <li>
+                                            <a href="#" onclick="get_new_details(135087,2)" data-toggle="modal" data-target="#product_view" >Only A Real Movie Nerd Can Pass This Title Quiz</a>
+                                        </li> 
+                                                                                                                                    </ul>             
+                        </div>      
+                        
+                </article>     
+                <div class="clearfix"></div>       
+                <div class="clearfix"></div>  
+            </section> 
+        </div>      
+    </div>     
+            <div class="front-overlay-arrows">
+            <div class="front-arrow-wrapper">
+                                                    <a href="http://pennybanker.com/mycon/world" rel="next" data-ht="frontnext" id="cards-next-link" class="front-arrow-life" style="visibility: visible;">
+                        <div class="cards-nav-icon"></div>
+                        <div class="front-overlay-next-arrows-anchor life-theme-bg">
+                            <div class="front-next-story-content-holder">
+                                <p class="front-next-arrow-label">world</p>
+                            </div>
+                        </div>
+                    </a>
+                            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .table-responsive {
+        background: transparent !important;
+    }
+</style>
+
+<script>
+
+    $('iframe#iframeId1').ready(function () {
+        $('iframe#iframeId1').contents().find("head").append($("<style type='text/css'>  .inlineblock  a{ display:none;} .inlineblock{width:100%;} </style>"));
+    });
+
+</script>
+
+<style>
+    .front-overlay-arrows {
+        height: 0;
+        left: 0;
+        position: fixed;
+        top: 45%;
+        width: 100%;
+        z-index: 4;
+    }
+    .no-touch .front-overlay-arrows:hover {
+        z-index: 101;
+    }
+    .high-impact-ad-visible .front-overlay-arrows {
+        display: none;
+    }
+    @media only screen and (max-height: 395px) {
+        .front-arrow-wrapper {
+            display: none;
+        }
+    }
+    @media (max-width: 979px) {
+        .front-arrow-wrapper {
+            display: none;
+        }
+    }
+    @media (min-width: 980px) {
+        .front-arrow-wrapper {
+            margin: 0 auto;
+            position: relative;
+        }
+    }
+    @media (min-width: 1150px) {
+        .front-arrow-wrapper {
+            margin: 0 auto;
+            position: relative;
+        }
+    }
+    @media (min-width: 1250px) {
+        .front-arrow-wrapper {
+            margin: 0 auto;
+            position: relative;
+        }
+    }
+    #cards-next-link, #cards-prev-link {
+        height: 55px;
+        position: relative;
+        transition: opacity 400ms ease-in-out 0s;
+        visibility: hidden;
+        width: 55px;
+        z-index: 100;
+    }
+    #cards-prev-link {
+        float: left;
+    }
+    #cards-next-link {
+        float: right;
+    }
+    .cards-nav-icon::before {
+        color: hsl(0, 0%, 30%);
+        display: block;
+        font-family: "Gannett Icons";
+        font-size: 55px;
+        height: 55px;
+        line-height: 79px;
+        position: relative;
+        top: -11px;
+        width: 29px;
+    }
+    #cards-prev-link .cards-nav-icon::before {
+        content: "<";
+    }
+    #cards-next-link .cards-nav-icon::before {
+        content: ">";
+    }
+
+
+
+    .front-overlay-next-arrows-anchor, .front-overlay-prev-arrows-anchor {
+        background-color: hsl(0, 0%, 14%);
+        height: 55px;
+
+        position: absolute;
+        top: 0;
+        transition: left 0.1s ease-out 0s, right 0.1s ease-out 0s;
+    }
+    .front-overlay-next-arrows-anchor {
+        padding: 0 20px 0 30px;
+        right: -200px;
+    }
+    .front-overlay-prev-arrows-anchor {
+        left: -200px;
+        padding: 0 30px 0 20px;
+    }
+    #cards-prev-link:hover  .front-overlay-prev-arrows-anchor{left:0 !important;}
+    #cards-next-link:hover  .front-overlay-next-arrows-anchor{right:0 !important;}
+    .no-touch #cards-next-link:hover .front-overlay-next-arrows-anchor {
+        right: 0;
+    }
+    .no-touch #cards-prev-link:hover .front-overlay-prev-arrows-anchor {
+        left: 0;
+    }
+    .front-next-arrow-label, .front-prev-arrow-label {
+        color: hsl(0, 0%, 100%);
+        font: 13px/18px "Futura Today DemiBold",Arial,sans-serif;
+        margin-top: 18px;
+        text-align: center;
+        text-shadow: 0 1px 0 hsla(0, 0%, 0%, 0.5);
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .front-next-arrow-label::after, .front-prev-arrow-label::before {
+        display: inline-block;
+        font-family: "Gannett Icons";
+        font-size: 12px;
+        font-weight: 700;
+        position: relative;
+        top: 1px;
+    }
+    .front-next-arrow-label::after {
+        content: ">";
+        margin-left: 6px;
+    }
+    .front-prev-arrow-label::before {
+        content: "<";
+        margin-right: 6px;
+    }
+    .front-prev-story-content-holder {
+        transition: left 0.3s ease-in-out 0s;
+    }
+    .front-next-story-content-holder {
+        transition: right 0.3s ease-in-out 0s;
+    }
+    .stag-masthead > h1 {
+        color: hsl(0, 0%, 100%);
+        font: 700 50px/54px "helvetica neue",arial,sans-serif;
+        margin: 0 0 25px;
+        text-shadow: 4px 3px 3px hsla(0, 0%, 0%, 0.4);
+    }
+    #topic-card.fixed {
+        position: fixed;
+        width: 100%;
+    }
+    #topic-card footer {
+        position: relative;
+    }
+</style>
+<!-- Footer Start -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                <img src="http://pennybanker.com/assets1/images/logo.png" class="img-responsive">
+                <p>We deliver a global hub for current news and daily information on what’s important to you. Penny Banker offers exclusive access to our secure platform and custom dashboard to capture and analyze your financial footprint to help transform your data into your success.</p>
+                <ul class="footer-social">
+                    <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-vk"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                <ul class="footer-menu latest-post">
+                    <h5>Latest Post</h5>
+                    <li>
+                        <p>Firmament whales which greater two wherein likeness light</p>
+                        <span><em>10 Nov 2017</em></span>
+                    </li>
+                    <li>
+                        <p>Firmament whales which greater two wherein likeness light</p>
+                        <span><em>31 Oct 2017</em></span>
+                    </li>
+                    <li>
+                        <p>Firmament whales which greater two wherein likeness light</p>
+                        <span><em>29 Oct 2017</em></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <ul class="footer-menu footer-contact">
+                    <h5>Contact Us</h5>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <span>Toronto, Canada</span>
+                    </li>
+                  <!--   <li>
+                        <i class="fa fa-phone"></i>
+                        <span>(123) 456-7890</span>
+                    </li>-->
+                    <li>
+                        <i class="fa fa-paper-plane"></i>
+                        <span><a href="mailto:info@pennybanker.com">info@pennybanker.com</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-1 hide">
+                <ul class="footer-menu site-nav-theme-border news-theme-bg">
+                    <h5>More</h5>
+                    <li><a href="javascript:void(0);">NFL</a></li>
+                    <li><a href="javascript:void(0);">MLB</a></li>
+                    <li><a href="javascript:void(0);">NBA</a></li>
+                    <li><a href="javascript:void(0);">NHL</a></li>
+                    <li><a href="javascript:void(0);">NCAAF</a></li>
+                    <li><a href="javascript:void(0);">NCAAB</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer-nav-2">
+            <div class="col-sm-6 col-md-1">
+                <ul class="footer-menu site-nav-theme-border world-theme-bg">
+                    <h5>WORLD</h5>
+                    <li><a href="http://pennybanker.com/world/news">News</a></li>
+
+                    <li><a href="http://pennybanker.com/world/news/economics">Economics</a></li>
+                    <li><a href="http://pennybanker.com/world/news/business">Business</a></li>
+                    <li><a href="http://pennybanker.com/world/news/tech">Tech</a></li>
+                    <li><a href="http://pennybanker.com/world/news/market">Markets</a></li>
+                    <li><a href="http://pennybanker.com/world/news/art_life">Arts</a></li>
+                    <li><a href="http://pennybanker.com/world/news/sports">Sports</a></li>
+                </ul>
+            </div>
+            <!--         <div class="col-sm-6 col-md-1">
+                    <ul class="footer-menu site-nav-theme-border news-theme-bg">
+                    <h5>Sci/Tech</h5>
+                    <li><a href="javascript:void(0);">NFL</a></li>
+                    <li><a href="javascript:void(0);">MLB</a></li>
+                    <li><a href="javascript:void(0);">NBA</a></li>
+                    <li><a href="javascript:void(0);">NHL</a></li>
+                    <li><a href="javascript:void(0);">NCAAF</a></li>
+                    <li><a href="javascript:void(0);">NCAAB</a></li>
+                    </ul>
+            </div> -->
+            <div class="col-sm-6 col-md-2">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>US/CANADA</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/us/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/us/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>LATIN AMERICA</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/au/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/au/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+
+            <div class="col-sm-6 col-md-2">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>MIDDLE EAST</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/de/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/de/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-1">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>ASIA</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/in/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/in/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-1">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>AFRICA</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/af/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/af/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+
+            <div class="col-sm-6 col-md-1">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>UK</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/gb/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+
+            <div class="col-sm-6 col-md-1">
+                <ul class="footer-menu site-nav-theme-border economy-theme-bg">
+                    <h5>EUROPE</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/news">News</a></li>
+
+                            <li><a href="http://pennybanker.com/mycon/territory/it/economics">Economics</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/business">Business</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/tech">Tech</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/market">Markets</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/art_life">Arts</a></li>
+                            <li><a href="http://pennybanker.com/mycon/territory/it/sports">Sports</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div class="col-sm-6 col-md-2 hide">
+                <ul class="footer-menu site-nav-theme-border sci-theme-bg">
+                    <h5>ARTS</h5>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="javascript:void(0);">Today's Arts</a></li>
+                            <li><a href="javascript:void(0);">Art & Design</a></li>
+                            <li><a href="javascript:void(0);">Books</a></li>
+                            <li><a href="javascript:void(0);">Dance</a></li>
+                            <li><a href="javascript:void(0);">Movies</a></li>
+                        </ul>
+                    </div>
+
+                    <!--           </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-1">
+                            <ul class="footer-menu site-nav-theme-border markets-theme-bg">
+                    <h5>ARTS</h5> -->
+                    <div class="col-sm-6 hide">
+                        <ul>          
+                            <li><a href="javascript:void(0);">Music</a></li>
+                            <li><a href="javascript:void(0);">Events Guide</a></li>
+                            <li><a href="javascript:void(0);">Television</a></li>   
+                            <li><a href="javascript:void(0);">Theater</a></li> 
+                            <li><a href="javascript:void(0);">Video: Arts</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-2 hide">
+                <ul class="footer-menu site-nav-theme-border arts-theme-bg">
+                    <h5>Living</h5>
+                    <div class="col-sm-6">  
+                        <ul>
+                            <li><a href="javascript:void(0);">Automobiles</a></li>
+                            <li><a href="javascript:void(0);">Crossword</a></li>
+                            <li><a href="javascript:void(0);">Food</a></li>
+                            <li><a href="javascript:void(0);">Education</a></li>
+                            <li><a href="javascript:void(0);">Fashion & Style</a></li>
+                            <li><a href="javascript:void(0);">Health</a></li>
+                            <li><a href="javascript:void(0);">Jobs</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6">  
+                        <ul>
+                            <li><a href="javascript:void(0);">Magazine</a></li>
+                            <li><a href="javascript:void(0);">Events Guide</a></li>
+                            <li><a href="javascript:void(0);">Real Estate</a></li>
+                            <li><a href="javascript:void(0);">T Magazine</a></li>
+                            <li><a href="javascript:void(0);">Travel</a></li>
+                            <li><a href="javascript:void(0);">Weddings & Celebrations</a></li>
+                        </ul>
+                    </div>
+
+                </ul>
+            </div>
+            <!--         <div class="col-sm-6 col-md-1">
+                    <ul class="footer-menu site-nav-theme-border life-theme-bg">
+                    <h5>Weather</h5>
+                    <li><a href="javascript:void(0);">Nation</a></li>
+                    <li><a href="javascript:void(0);">World</a></li>
+                    <li><a href="javascript:void(0);">Washington</a></li>
+                    <li><a href="javascript:void(0);">Health & Wellness</a></li>
+                    </ul>
+            </div> -->
+            <div class="col-sm-6 col-md-2 hide">
+                <ul class="footer-menu site-nav-theme-border realestate-theme-bg">
+                    <h5>Listings & More</h5>
+                    <li><a href="javascript:void(0);">Classifieds</a></li>
+                    <li><a href="javascript:void(0);">Tools & Services</a></li>
+                    <li><a href="javascript:void(0);">Times Topics</a></li>
+                    <li><a href="javascript:void(0);">Public Editor</a></li>
+                    <li><a href="javascript:void(0);">Events Guide</a></li>
+                    <li><a href="javascript:void(0);">Blogs</a></li>
+                    <li><a href="javascript:void(0);">Multimedia</a></li>
+                    <li><a href="javascript:void(0);">Photography</a></li>
+                    <!--             <li><a href="javascript:void(0);">Video</a></li>
+                    <li><a href="javascript:void(0);">Times Journeys</a></li> -->
+                    <li><a href="javascript:void(0);">Subscribe</a></li>
+                    <li><a href="javascript:void(0);">Manage My Account</a></li>
+                </ul>
+            </div>
+            <!--         <div class="col-sm-6 col-md-1">
+                    <ul class="footer-menu site-nav-theme-border sports-theme-bg">
+                    <h5>World</h5>
+                    <li><a href="javascript:void(0);">Nation</a></li>
+                    <li><a href="javascript:void(0);">World</a></li>
+                    <li><a href="javascript:void(0);">Washington</a></li>
+                    <li><a href="javascript:void(0);">Health & Wellness</a></li>
+                    </ul>
+            </div> -->
+            <div class="col-sm-6 col-md-1 hide">
+                <ul class="footer-menu site-nav-theme-border weather-theme-bg">
+                    <h5>News</h5>
+                    <li><a href="javascript:void(0);">Nation</a></li>
+                    <li><a href="javascript:void(0);">World</a></li>
+                    <li><a href="javascript:void(0);">Washington</a></li>
+                    <li><a href="javascript:void(0);">Health & Wellness</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-1 menu-expand hide">
+                <ul class="footer-menu site-nav-theme-border traffic-theme-bg caption">
+                    <h5>Economy</h5>
+                    <li><a href="javascript:void(0);">Nation</a></li>
+                    <li><a href="javascript:void(0);">World</a></li>
+                    <li><a href="javascript:void(0);">Washington</a></li>
+                    <li><a href="javascript:void(0);">Health & Wellness</a></li>
+                </ul>
+                <a class="read-more" href="#">Know More</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container bottom-footer">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="copyright">2017 © All Rights Reserved by <span>Pennybanker</span></p>
+            </div>
+            <div class="col-sm-6">
+                <ul class="privacy-policy">
+                    <li><a href="http://pennybanker.com/frontend/privacy">privacy policy</a></li>
+                    <li><a href="http://pennybanker.com/frontend/termcondition">terms and conditions</a></li>
+                    <li><a href="http://pennybanker.com/frontend/contactus">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /Footer Close --> 
+<!-- Login Poup -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-body">
+                            <ul class="nav nav-tabs final-login">
+
+                                <li class="active"><a data-toggle="tab" href="#sectionA">Sign In</a></li>
+                                <li><a data-toggle="tab" href="#sectionB">Join us!</a></li>
+                                <li><a data-toggle="tab" href="#sectionC">Forget Password</a></li>
+                            </ul>
+
+                            <form action="http://pennybanker.com/users/postlogin" id="frmLogin" method="post" accept-charset="utf-8">
+                            <div class="tab-content">
+                                <div id="sectionA" class="tab-pane fade in active">
+                                    <div class="innter-form">
+                                        <div id="login_fail" class="alert alert-danger" style="display: none;">
+                                            <strong>Danger!</strong> Login failed, please try again.
+                                        </div>
+
+                                        
+                                        <form class="sa-innate-form" id="frmLogin" method="post" action="http://pennybanker.com/users/postLogin">
+                                            <input type="hidden" name="txtPostBack" id="txtPostBack">
+                                            <label>Email Address</label>
+                                            <input type="text" name="email" value="" placeholder="Email Address" required="true" class="form-control" id="login_username"  />
+                                            <label>Password</label>
+                                            <input type="password" name="password" value="" placeholder="Password" required="true" class="form-control" id="login_password" autocomplete="off"  />
+                                            <input type="hidden" name="loginval" id="loginval" value="yes" />
+                                            <div id="loginbutton">
+                                                <button type="submit" id="login_btn">Sign In</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--   <div class="social-login">
+                                            <p>- - - - - - - - - - - - - Sign In With - - - - - - - - - - - - - </p>
+                                            <ul>
+                                            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                                            </ul>
+                                            </div>
+                                    <div class="clearfix"></div> -->
+                                </div>
+                                <div id="sectionB" class="tab-pane fade">
+                                    <div class="innter-form">
+                                        <div id="register_fail" class="alert alert-danger" style="display: none;">
+                                            <strong>Danger!</strong> Registration failed, please try again.
+                                        </div>
+                                        <div id="register_success" class="alert alert-success" style="display: none;">
+                                            <strong>Success!</strong> Register Success, Please check your register email ID in inbox OR spam.
+                                        </div>
+                                        <form action="http://pennybanker.com/users/register" id="frmRegister" method="post" accept-charset="utf-8">
+                                        <label>Name</label>
+                                        <input type="text" name="username" id="username" class="form-control">
+                                        <label>Email Address</label>
+                                        <input type="text" name="email" id="email" class="form-control">
+                                        <label>Password</label>
+                                        <input type="password" name="password" id="password" class="form-control">
+                                        <input type="hidden" name="ci_csrf_token" value="" />
+                                        <input type="hidden" name="loginval" id="loginval" value="yes" />
+                                        <div id="registerbutton">
+                                            <button type="submit">Join now</button>
+                                        </div>
+                                        <p>By clicking Join now, you agree to Pennybanker's User Agreement, Privacy Policy, and Cookie Policy.</p>
+                                        </form>
+                                    </div>
+                                    <!--  <div class="social-login">
+                                            <p>- - - - - - - - - - - - - Register With - - - - - - - - - - - - - </p>
+                                            <ul>
+                                            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                                            </ul>
+                                    </div> -->
+                                </div>
+                                <div id="sectionC" class="tab-pane fade">
+                                    <div class="innter-form">
+                                        <div id="forgot_fail" class="alert alert-danger" style="display: none;">
+                                            <strong>Sorry!</strong> Email does not exist.
+                                        </div>
+                                        <div id="forgot_success" class="alert alert-success" style="display: none;">
+                                            <strong>Success!</strong> Please check your mail.
+                                        </div>
+                                        <form class="sa-innate-form" id="frmForgot">
+                                            <div class="form-group">
+                                            <label>Email Address</label>
+                                            <input type="email" required class="form-control" name="frgemail" id="frgemail">
+                                                </div>
+                                            <button type="submit" id="btnFrg">Reset Password</button>
+                                        </form>
+                                    </div>
+                                    <!--   <div class="social-login">
+                                            <p>- - - - - - - - - - - - - Sign In With - - - - - - - - - - - - - </p>
+                                            <ul>
+                                            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                                            </ul>
+                                            </div>
+                                    <div class="clearfix"></div> -->
+                                </div>
+
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /Login Poup Close -->
+
+
+<!-- Login Poup -->
+<div class="modal fade" id="package-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-body">
+                            <ul class="nav nav-tabs final-login">
+                                <li class="active"><a data-toggle="tab" href="#sectionB">Join us!</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="sectionB" class="tab-pane fade in active">
+                                    <div class="innter-form">
+                                        <div id="register_fail1" class="alert alert-danger" style="display: none;">
+                                            <strong>Danger!</strong> Registration failed, please try again.
+                                        </div>
+                                        <div id="register_success1" class="alert alert-success" style="display: none;">
+                                            <strong>Success!</strong> Register Success, Please check your register email ID in inbox OR spam.
+                                        </div>
+                                        <form action="http://pennybanker.com/users/register" id="frmRegister1" method="post" accept-charset="utf-8">
+                                        <label>Name</label>
+                                        <input type="text" name="username1" id="username1" class="form-control">
+                                        <label>Email Address</label>
+                                        <input type="text" name="email1" id="email1" class="form-control">
+                                        <label>Password</label>
+                                        <input type="password" name="password1" id="password1" class="form-control">
+                                        <input type="hidden" name="ci_csrf_token" value="" />
+                                        <input type="hidden" name="loginval1" id="loginval1" value="yes" />
+                                        <div id="registerbutton1">
+                                            <button type="submit">Join now</button>
+                                        </div>
+                                        <p>By clicking Join now, you agree to Penny Banker User Agreement, Privacy Policy, and Cookie Policy.</p>
+                                        </form>
+                                    </div>
+                                    <!--  <div class="social-login">
+                                            <p>- - - - - - - - - - - - - Register With - - - - - - - - - - - - - </p>
+                                            <ul>
+                                            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                                            </ul>
+                                    </div> -->
+                                </div>
+
+                                </form>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /Login Poup Close -->
+
+
+
+</div>
+<!-- /Main Wrapper close --> 
+
+
+<script src="http://pennybanker.com/assets1/js/owl.carousel.js"></script>
+<!-- Tab To Accordain --> 
+<script src="http://pennybanker.com/assets1/js/easyResponsiveTabs.js"></script> 
+<!-- news slider --> 
+<!--<script src="assets1/js/jquery.bootstrap.newsbox.js" type="text/javascript"></script> -->
+<!-- Search Form Js --> 
+<script src="http://pennybanker.com/assets1/js/jquery.newsTicker.js" type="text/javascript"></script>
+<script src="http://pennybanker.com/assets1/js/classie.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://pennybanker.com/assets1/js/common.js"></script>
+<!-- custom scrollbar plugin -->
+<script src="http://pennybanker.com/assets1/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Image Slider --> 
+<script defer src="http://pennybanker.com/assets1/js/jquery.flexslider.js"></script>
+<script>
+
+
+    var nt_example1 = $('.nt-example1').newsTicker({
+        row_height: 60,
+        max_rows: 6,
+        duration: 4000
+
+    });
+    /*$(".financial_news").bootstrapNews({
+        newsPerPage: 7,
+        autoplay: true,
+        pauseOnHover: true,
+        navigation: false,
+        direction: 'up',
+        newsTickerInterval: 4500,
+        onToDo: function () {
+            //console.log(this);
+        }
+    });*/
+</script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                $(this).parent().siblings().removeClass('open');
+                $(this).parent().toggleClass('open');
+            });
+        });
+        $("#frmLogin").submit(function (event) {
+            event.preventDefault();
+            var username = $("#login_username").val();
+            var password = $("#login_password").val();
+            $('#loginbutton').html('<button type="button" desabled="desabled">Please wait... Sign-in request submitting....</button>');
+            $.ajax({
+                url: $("#frmLogin").attr('action'),
+                type: 'POST',
+                data: {username: username, password: password},
+                success: function (result) {
+                    if (result == 1) {
+                        window.location.href = "http://pennybanker.com/users/dash";
+                    } else if (result == 2) {
+                        $("#login_fail").show();
+                        $('#loginbutton').html('<button type="submit">Sign In</button>');
+                        $("#login_fail").html('<strong>Danger!</strong> Account not activated. Please check register email in inbox OR spam');
+                    } else if (result == 3) {
+                        window.location.href = "http://pennybanker.com/frontend";
+                    } else {
+                        $("#login_fail").show();
+                        $('#loginbutton').html('<button type="submit">Sign In</button>');
+                        $("#login_fail").html('<strong>Danger!</strong> Login failed, please try again.');
+                    }
+                }
+            });
+        });
+
+
+        $("#frmRegister").submit(function (event) {
+            event.preventDefault();
+            var name = $("#username").val();
+            var email = $("#email").val();
+            var password = $("#password").val();
+            $('#registerbutton').html('<button type="button" desabled="desabled">Please wait... Register request submitting....</button>');
+
+            $.ajax({
+                url: $("#frmRegister").attr('action'),
+                type: 'POST',
+                data: {name: name, email: email, password: password},
+                success: function (result) {
+                    if (result == 0) {
+                        $("#register_fail").show();
+                        $('#registerbutton').html('<button type="submit">Join Now</button>');
+                        $("#register_fail").html('<strong>Danger!</strong> Registration failed, please try again.');
+
+                    } else if (result == 1) {
+                        $("#register_fail").show();
+                        $('#registerbutton').html('<button type="submit">Join Now</button>');
+                        $("#register_fail").html('<strong>Danger!</strong> Registration failed, Email id already exist.');
+                    } else {
+                        $('#registerbutton').html('<button type="submit">Join Now</button>');
+                        $("#frmRegister")[0].reset();
+                        $("#register_success").show();
+
+                    }
+                }
+            });
+        });
+
+        $("#frmRegister1").submit(function (event) {
+            event.preventDefault();
+            var name = $("#username1").val();
+            var email = $("#email1").val();
+            var password = $("#password1").val();
+            $('#registerbutton1').html('<button type="button" desabled="desabled">Please wait... Register request submitting....</button>');
+
+            $.ajax({
+                url: $("#frmRegister1").attr('action'),
+                type: 'POST',
+                data: {name: name, email: email, password: password},
+                success: function (result) {
+                    if (result == 0) {
+                        $("#register_fail1").show();
+                        $('#registerbutton1').html('<button type="submit">Join Now</button>');
+                        $("#register_fail1").html('<strong>Danger!</strong> Registration failed, please try again.');
+
+                    } else if (result == 1) {
+                        $("#register_fail1").show();
+                        $('#registerbutton1').html('<button type="submit">Join Now</button>');
+                        $("#register_fail1").html('<strong>Danger!</strong> Registration failed, Email id already exist.');
+                    } else {
+                        $('#registerbutton1').html('<button type="submit">Join Now</button>');
+                        $("#frmRegister1")[0].reset();
+                        $("#register_success1").show();
+
+                    }
+                }
+            });
+        });
+
+
+
+        $("#frmForgot").submit(function (event) {
+            event.preventDefault();
+
+            var email = $("#frgemail").val();
+
+            $('#btnFrg').html('Checking Email....').attr('disabled','disabled');
+
+            $.ajax({
+                url: 'http://pennybanker.com/mycon/forgotpassword',
+                type: 'POST',
+                data: {email: email},
+                success: function (result) {
+                    console.log(result);
+
+                    if(result==0){
+                        $("#forgot_fail").slideDown();
+                        $("#forgot_success").slideUp();
+                        $('#btnFrg').html('Reset Password....').removeAttr('disabled');
+                    }else{
+                        $("#forgot_success").slideDown();
+                        $("#forgot_fail").slideUp();
+                        $('#btnFrg').html('Reset Password....').removeAttr('disabled');
+                    }
+
+                }
+            });
+        });
+
+
+        $("#frmremailcheck").submit(function (event) {
+            event.preventDefault();
+
+            var email = $("#txtemail").val();
+
+           // $('#btnFrg').html('Checking Email....').attr('disabled','disabled');
+
+            $.ajax({
+                url: 'http://pennybanker.com/mycon/checkemail',
+                type: 'POST',
+                data: {email: email},
+                success: function (result) {
+                    console.log(result);
+
+                    if(result==0){
+                        $("#forgot_fail").slideDown();
+                        //$("#forgot_success").slideUp();
+                        //$('#btnFrg').html('Reset Password....').removeAttr('disabled');
+                    }else{
+                        $("#frmremailcheck").slideUp();
+                        $("#frmreset").slideDown();
+
+                        $("#forgot_fail").slideUp();
+                        $("#hndPass").val(result);
+                        //$('#btnFrg').html('Reset Password....').removeAttr('disabled');
+                    }
+
+                }
+            });
+        });
+
+
+        $("#frmreset").submit(function (event) {
+            event.preventDefault();
+
+            var pwd = $("#txtPassword").val();
+            var cpwd = $("#txtCPassword").val();
+            var pkey = $("#hndPasskey").val();
+            var id = $("#hndPass").val();
+
+
+           // $('#btnFrg').html('Checking Email....').attr('disabled','disabled');
+
+            if(pwd==cpwd) {
+                $("#password_fail").slideUp();
+
+                $.ajax({
+                    url: 'http://pennybanker.com/mycon/setnewpassword',
+                    type: 'POST',
+                    data: {pwd: pwd, pkey: pkey, id: id},
+                    success: function (result) {
+                        console.log(result);
+                        //$("#password_fail").slideDown();
+                    $("#forgotp_success").slideDown();
+
+
+                    }
+                });
+            }else{
+                $("#password_fail").slideDown();
+
+            }
+
+
+
+        });
+
+
+
+
+
+
+    })(jQuery);
+
+
+    function get_new_details(news_id,source){
+
+
+        $.ajax({
+            type:"POST",
+            url: 'http://pennybanker.com/' + "mycon/get_news_details",
+            data:{news_id:news_id,source:source},
+            dataType : "json",
+            success: function(save_result) {
+                //alert(save_result);
+                $("#spnNImage").attr('src',save_result.image);
+                $("#spnLCount").html(save_result.like);
+                //$("#spnNText").html('<pre>'+save_result.text+'</pre>');
+                $("#spnNText").html(save_result.text);
+                $("#spnNTitle").html(save_result.title);
+                $("#spnNSource").html(save_result.source);
+                //$("#spnNImage").val(save_result.image);
+                //$("#spnNImage").val(save_result.image);
+                //$("#busi_country").val($("#zipcountry").val());
+            }
+        });
+
+    }
+</script>
+
+</body>
+</html>

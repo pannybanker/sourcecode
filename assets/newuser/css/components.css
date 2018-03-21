@@ -1,0 +1,1209 @@
+.plupload_delete a:after,
+.plupload_done a:after,
+.plupload_failed a:after,
+.plupload_file_action:after,
+.plupload_filelist li.plupload_droptext:before,
+.plupload_filelist:empty:before,
+.plupload_header:after {
+    font-family: icomoon;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.plupload_header {
+    display: none;
+    position: relative;
+    background-color: #0097a7;
+    margin: -1px -1px 0 -1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px
+}
+
+.plupload_header:after {
+    content: '\ec78';
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -16px
+}
+
+.plupload_header_content {
+    padding: 15px 20px;
+    padding-left: 72px;
+    color: #fff
+}
+
+.plupload_header_title {
+    font-size: 15px;
+    font-weight: 500
+}
+
+.plupload_header_text {
+    font-size: 11px;
+    line-height: 1.82
+}
+
+.plupload_clear,
+.plupload_clearer {
+    clear: both
+}
+
+.plupload_clearer,
+.plupload_progress_bar {
+    display: block;
+    font-size: 0;
+    line-height: 0
+}
+
+.plupload_button {
+    display: inline-block;
+    color: #fff;
+    background-color: #2196f3;
+    border: 1px solid transparent;
+    padding: 6px 11px;
+    border-radius: 2px;
+    margin-right: 5px
+}
+
+.plupload_button:focus,
+.plupload_button:hover {
+    color: #fff;
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, .05) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, .05) inset
+}
+
+.plupload_button:active {
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, .1) inset
+}
+
+a.plupload_disabled,
+a.plupload_disabled:focus,
+a.plupload_disabled:hover {
+    color: #999;
+    border-color: #ddd;
+    background: #fcfcfc;
+    cursor: default;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.plupload_start {
+    background-color: #26a69a
+}
+
+.plupload_filelist {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.plupload_scroll .plupload_filelist {
+    height: 250px;
+    background: #fff;
+    overflow-y: auto
+}
+
+@media (max-width:768px) {
+    .plupload_scroll .plupload_filelist {
+        height: 200px
+    }
+}
+
+.plupload_filelist li {
+    padding: 12px 20px;
+    background-color: #fff
+}
+
+.plupload_filelist li:hover {
+    background-color: #f5f5f5
+}
+
+.plupload_filelist li.plupload_droptext:hover {
+    background-color: transparent
+}
+
+.plupload_filelist li.plupload_droptext,
+.plupload_filelist:empty {
+    position: relative;
+    height: 250px;
+    text-align: center;
+    background-color: transparent;
+    text-indent: -99999px
+}
+
+.plupload_filelist li.plupload_droptext:before,
+.plupload_filelist:empty:before {
+    content: '\ea0e';
+    font-size: 80px;
+    padding-top: 65px;
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    z-index: 2;
+    color: #ddd;
+    text-indent: 0;
+    font-weight: 400
+}
+
+.plupload_filelist li.plupload_droptext:after,
+.plupload_filelist:empty:after {
+    content: 'Drag files to upload';
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    padding-top: 145px;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    width: 300px;
+    height: 200px;
+    color: #bbb;
+    text-indent: 0
+}
+
+@media (max-width:768px) {
+    .plupload_filelist li.plupload_droptext,
+    .plupload_filelist:empty {
+        height: 200px
+    }
+    .plupload_filelist li.plupload_droptext:after,
+    .plupload_filelist li.plupload_droptext:before,
+    .plupload_filelist:empty:after,
+    .plupload_filelist:empty:before {
+        width: 100%;
+        height: 200px;
+        left: 0;
+        margin: 0;
+        top: 0
+    }
+    .plupload_filelist li.plupload_droptext:before,
+    .plupload_filelist:empty:before {
+        font-size: 64px;
+        padding-top: 40px
+    }
+    .plupload_filelist li.plupload_droptext:after,
+    .plupload_filelist:empty:after {
+        font-size: 17px;
+        border-width: 3px 0;
+        padding-top: 120px
+    }
+}
+
+.plupload_filelist:empty:after {
+    content: 'Add files to upload'
+}
+
+.plupload_filelist_header {
+    padding: 15px 20px
+}
+
+.plupload_filelist_header .plupload_file_action,
+.plupload_filelist_header .plupload_file_name,
+.plupload_filelist_header .plupload_file_size,
+.plupload_filelist_header .plupload_file_status {
+    font-weight: 500
+}
+
+.plupload_filelist_footer {
+    padding: 15px 20px
+}
+
+.plupload_filelist_footer .plupload_file_size,
+.plupload_filelist_footer .plupload_file_status,
+.plupload_filelist_footer .plupload_upload_status {
+    padding: 7px 0;
+    font-weight: 500
+}
+
+@media (max-width:768px) {
+    .plupload_filelist_footer .plupload_file_action,
+    .plupload_filelist_footer .plupload_file_size,
+    .plupload_filelist_footer .plupload_file_status,
+    .plupload_filelist_footer .plupload_progress {
+        display: none
+    }
+}
+
+.plupload_file_action {
+    position: relative;
+    float: right;
+    margin-left: 30px;
+    margin-top: 2px;
+    color: #999;
+    width: 16px;
+    height: 16px
+}
+
+.plupload_file_action * {
+    display: none
+}
+
+.plupload_file_action:after {
+    content: '\ec67';
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.plupload_filelist_footer .plupload_file_action {
+    margin-top: 9px
+}
+
+.plupload_filelist .plupload_file_action:after {
+    content: none
+}
+
+.plupload_delete .plupload_file_action>a {
+    color: #333;
+    line-height: 1;
+    opacity: .5
+}
+
+.plupload_delete .plupload_file_action>a:hover {
+    opacity: 1
+}
+
+.plupload_uploading {
+    background-color: #e8f5e9
+}
+
+.plupload_delete a:after {
+    content: '\ed6b'
+}
+
+.plupload_failed a {
+    color: #f44336;
+    cursor: default
+}
+
+.plupload_failed a:after {
+    content: '\e9cf'
+}
+
+.plupload_done {
+    color: #999
+}
+
+.plupload_done a {
+    color: #4db6ac;
+    cursor: default
+}
+
+.plupload_done a:after {
+    content: '\e9db'
+}
+
+.plupload_progress,
+.plupload_upload_status {
+    display: none
+}
+
+.plupload_progress_container {
+    margin-top: 14px;
+    background-color: #eee
+}
+
+.plupload_progress_bar {
+    width: 0;
+    height: 4px;
+    background: #4db6ac;
+    border-radius: 5px
+}
+
+@media (min-width:769px) {
+    .plupload_file_name {
+        float: left;
+        overflow: hidden
+    }
+    .plupload_filelist .plupload_file_name {
+        width: 205px;
+        white-space: nowrap;
+        text-overflow: ellipsis
+    }
+    .plupload_file_size,
+    .plupload_file_status,
+    .plupload_progress {
+        float: right;
+        width: 80px
+    }
+    .plupload_file_action,
+    .plupload_file_size,
+    .plupload_file_status {
+        text-align: right
+    }
+}
+
+.file-input.has-error .form-control {
+    border-color: #ddd;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+@media (min-width:769px) {
+    .file-input .btn>.glyphicon,
+    .file-input .btn>[class*=icon-] {
+        margin-right: 5px
+    }
+}
+
+.file-object {
+    margin: 0 0 -7px 0;
+    padding: 0
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: none repeat scroll 0 0 transparent;
+    cursor: inherit;
+    display: block
+}
+
+.file-caption-name {
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-all
+}
+
+.file-caption-name .glyphicon,
+.file-caption-name [class*=icon-] {
+    margin-right: 7px
+}
+
+.file-input-new .file-caption-name {
+    color: #999
+}
+
+.file-input-new .file-caption-name>.glyphicon,
+.file-input-new .file-caption-name>[class*=icon-] {
+    display: none
+}
+
+.file-error-message {
+    position: relative;
+    background-color: #f2dede;
+    color: #a94442;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 5px 5px 5px
+}
+
+.file-drop-zone .file-error-message {
+    margin-top: 5px
+}
+
+.file-error-message .close {
+    margin-top: 1px;
+    color: #a94442
+}
+
+.file-error-message pre,
+.file-error-message ul {
+    margin: 7px 0;
+    text-align: left
+}
+
+.file-caption-disabled {
+    background-color: #fafafa;
+    cursor: not-allowed
+}
+
+.file-caption-disabled .file-caption-name {
+    color: #ccc
+}
+
+.file-preview-detail-modal {
+    text-align: left
+}
+
+.file-preview {
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center
+}
+
+.file-preview>.close {
+    font-weight: 400;
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 8px;
+    line-height: .6;
+    border-radius: 3px;
+    color: #555;
+    opacity: 1
+}
+
+.file-preview-frame {
+    margin: 7px;
+    margin-right: 0;
+    display: table;
+    border: 1px solid #ddd;
+    float: left;
+    vertical-align: middle
+}
+
+.file-drop-zone .file-preview-frame {
+    border: 1px solid #ddd;
+    border-radius: 3px
+}
+
+.file-preview-image {
+    height: 160px;
+    vertical-align: middle;
+    image-orientation: from-image;
+    border-radius: 3px
+}
+
+@media (max-width:768px) {
+    .file-preview-image {
+        max-width: 100%
+    }
+}
+
+.file-preview-text {
+    text-align: left;
+    width: 160px;
+    margin-bottom: 2px;
+    color: #428bca;
+    background-color: #fff;
+    overflow-x: hidden
+}
+
+.file-preview-other {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 160px;
+    height: 160px
+}
+
+.file-preview-other:after {
+    content: "\ea0c";
+    font-family: icomoon;
+    display: block;
+    font-size: 64px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.file-preview-other .glyphicon {
+    display: none
+}
+
+.file-preview-status {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #333;
+    background-color: rgba(250, 250, 250, .8);
+    border-top: 1px solid #ddd;
+    padding: 7px 12px;
+    font-size: 12px;
+    line-height: 1.6666667;
+    color: #333!important
+}
+
+.file-preview-status:empty {
+    padding: 0;
+    background-color: transparent;
+    border: 0
+}
+
+.file-thumb-loading {
+    min-height: 107px
+}
+
+.file-thumb-loading:before,
+.file-uploading:before {
+    content: "";
+    display: inline-block;
+    background-color: #263238;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -33.5px 0 0 -16px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 5px rgba(255, 255, 255, .5);
+    box-shadow: 0 1px 5px rgba(255, 255, 255, .5)
+}
+
+.file-thumb-loading:after,
+.file-uploading:after {
+    content: "\eb55";
+    font-family: icomoon;
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin: -25.5px 0 0 -8px;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation: rotation 1s linear infinite;
+    -o-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite
+}
+
+.file-upload-indicator {
+    position: absolute;
+    bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: default;
+    text-align: left;
+    padding-left: 8px
+}
+
+.file-input-new .close,
+.file-input-new .file-preview,
+.file-input-new .fileinput-remove-button,
+.file-input-new .fileinput-upload-button,
+.file-input-new .glyphicon-file {
+    display: none
+}
+
+.file-input-ajax-new .file-caption-name>.glyphicon,
+.file-input-ajax-new .file-caption-name>[class*=icon-],
+.file-input-ajax-new .fileinput-remove,
+.file-input-ajax-new .fileinput-remove-button,
+.file-input-ajax-new .fileinput-upload-button {
+    display: none
+}
+
+.file-actions {
+    margin-top: 5px;
+    border-top: 1px solid #eee
+}
+
+.file-actions .btn>.glyphicon,
+.file-actions .btn>[class*=icon-] {
+    margin-right: 0
+}
+
+.file-footer-buttons {
+    float: right
+}
+
+.file-footer-caption {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 11px;
+    padding: 12px 7px 7px 7px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.file-preview-error {
+    opacity: .65;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.file-drop-zone {
+    border: 1px dashed #ddd;
+    border-radius: 3px;
+    height: 100%;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 5px
+}
+
+.file-drop-zone-title {
+    color: #999;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 85px 10px
+}
+
+.file-highlighted {
+    border-color: #ccc;
+    background-color: #fafafa
+}
+
+.kv-upload-progress {
+    margin-bottom: 20px
+}
+
+.file-thumb-progress {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0
+}
+
+.file-thumb-progress .progress,
+.file-thumb-progress .progress-bar {
+    height: 5px;
+    border-radius: 0;
+    font-size: 0
+}
+
+.file-thumbnail-footer {
+    position: relative
+}
+
+.btn-file::-ms-browse {
+    width: 100%;
+    height: 100%
+}
+
+.file-zoom-fullscreen.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.file-zoom-fullscreen .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+
+.file-zoom-fullscreen .modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.file-zoom-fullscreen .modal-body {
+    overflow-y: auto
+}
+
+.file-zoom-dialog .btn-navigate {
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    padding: 0;
+    border: 0;
+    background: 0 0;
+    outline: 0;
+    color: #fff;
+    opacity: .7
+}
+
+.file-zoom-dialog .btn-navigate>i {
+    display: block;
+    font-size: 32px
+}
+
+.file-zoom-dialog .btn-navigate:not([disabled]):focus,
+.file-zoom-dialog .btn-navigate:not([disabled]):hover {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .5
+}
+
+.file-zoom-dialog .btn-navigate[disabled] {
+    opacity: .3
+}
+
+.file-zoom-dialog .btn-prev {
+    left: -42px
+}
+
+.file-zoom-dialog .btn-next {
+    right: -42px
+}
+
+.file-zoom-dialog .floating-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 0 0 0 3px
+}
+
+.file-zoom-dialog .floating-buttons:not(:empty) {
+    padding: 0 0 20px 20px
+}
+
+.file-zoom-dialog .floating-buttons,
+.file-zoom-dialog .floating-buttons .btn {
+    z-index: 3000
+}
+
+.kv-zoom-actions {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -6px
+}
+
+.file-zoom-content {
+    height: 480px;
+    text-align: center
+}
+
+.file-drag-handle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: move;
+    cursor: -webkit-grabbing
+}
+
+.file-drag-handle:hover {
+    opacity: .7
+}
+
+.file-drag-handle>i {
+    top: 0
+}
+
+.dropzone {
+    position: relative;
+    border: 2px dashed #ddd;
+    min-height: 250px;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 5px
+}
+
+.panel .dropzone {
+    background-color: #fcfcfc;
+    border-color: #eee
+}
+
+.dropzone.dz-clickable,
+.dropzone.dz-clickable .dz-message,
+.dropzone.dz-clickable .dz-message span {
+    cursor: pointer
+}
+
+.dropzone.dz-clickable * {
+    cursor: default
+}
+
+.dropzone .dz-message {
+    opacity: 1
+}
+
+.dropzone.dz-started .dz-message {
+    display: none
+}
+
+.dropzone.dz-drag-hover {
+    border-color: rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, .04)
+}
+
+.sidebar .dropzone {
+    min-height: 190px;
+    text-align: center;
+    border-width: 2px
+}
+
+.sidebar .dropzone .dz-default.dz-message:before {
+    font-size: 64px;
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    top: 50px
+}
+
+.sidebar .dropzone .dz-default.dz-message span {
+    font-size: 15px
+}
+
+.sidebar .dropzone .dz-default.dz-message>span {
+    margin-top: 130px
+}
+
+@media (min-width:769px) {
+    .dropzone {
+        min-height: 320px
+    }
+}
+
+.dropzone .dz-default.dz-message {
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    margin-top: -115px;
+    top: 50%;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+.dropzone .dz-default.dz-message:before {
+    content: '\ea0e';
+    font-family: icomoon;
+    font-size: 64px;
+    position: absolute;
+    top: 48px;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    left: 50%;
+    margin-left: -32px;
+    line-height: 1;
+    z-index: 2;
+    color: #ddd;
+    text-indent: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.dropzone .dz-default.dz-message span {
+    font-size: 15px;
+    color: #bbb;
+    text-align: center;
+    margin-top: 140px;
+    display: block;
+    font-weight: 500;
+    text-shadow: 0 1px 1px #fff
+}
+
+.dropzone .dz-default.dz-message span>span {
+    margin-top: 2px;
+    display: block;
+    color: #ccc;
+    font-size: 15px
+}
+
+@media (min-width:769px) {
+    .dropzone .dz-default.dz-message:before {
+        font-size: 80px;
+        top: 48px;
+        width: 80px;
+        height: 80px;
+        margin-left: -32px
+    }
+    .dropzone .dz-default.dz-message span {
+        font-size: 19px;
+        margin-top: 130px
+    }
+}
+
+.dropzone.dz-drag-hover .dz-message {
+    opacity: .15
+}
+
+.dropzone.dz-started .dz-message {
+    display: block;
+    opacity: 0
+}
+
+.dropzone .dz-preview,
+.dropzone-previews .dz-preview {
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 2px
+}
+
+.dropzone .dz-preview.dz-file-preview [data-dz-thumbnail],
+.dropzone-previews .dz-preview.dz-file-preview [data-dz-thumbnail] {
+    display: none
+}
+
+.dropzone .dz-preview .dz-details,
+.dropzone-previews .dz-preview .dz-details {
+    width: 140px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 8px;
+    margin-bottom: 25px
+}
+
+.dropzone .dz-preview .dz-details .dz-filename,
+.dropzone-previews .dz-preview .dz-details .dz-filename {
+    overflow: hidden;
+    height: 100%
+}
+
+.dropzone .dz-preview .dz-details img,
+.dropzone-previews .dz-preview .dz-details img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px
+}
+
+.dropzone .dz-preview .dz-details .dz-size,
+.dropzone-previews .dz-preview .dz-details .dz-size {
+    position: absolute;
+    bottom: -26px;
+    left: 0
+}
+
+.dropzone .dz-preview:hover .dz-details img,
+.dropzone-previews .dz-preview:hover .dz-details img {
+    display: none
+}
+
+.dropzone .dz-preview .dz-error-mark,
+.dropzone .dz-preview .dz-success-mark,
+.dropzone-previews .dz-preview .dz-error-mark,
+.dropzone-previews .dz-preview .dz-success-mark {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    right: 8px
+}
+
+.dropzone .dz-preview .dz-error-mark:after,
+.dropzone .dz-preview .dz-success-mark:after,
+.dropzone-previews .dz-preview .dz-error-mark:after,
+.dropzone-previews .dz-preview .dz-success-mark:after {
+    font-family: icomoon;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    font-size: 12px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.dropzone .dz-preview .dz-error-mark span,
+.dropzone .dz-preview .dz-error-mark svg,
+.dropzone .dz-preview .dz-success-mark span,
+.dropzone .dz-preview .dz-success-mark svg,
+.dropzone-previews .dz-preview .dz-error-mark span,
+.dropzone-previews .dz-preview .dz-error-mark svg,
+.dropzone-previews .dz-preview .dz-success-mark span,
+.dropzone-previews .dz-preview .dz-success-mark svg {
+    display: none
+}
+
+.dropzone .dz-preview .dz-error-mark,
+.dropzone-previews .dz-preview .dz-error-mark {
+    color: #f44336
+}
+
+.dropzone .dz-preview .dz-error-mark:after,
+.dropzone-previews .dz-preview .dz-error-mark:after {
+    content: '\ed6a'
+}
+
+.dropzone .dz-preview .dz-success-mark,
+.dropzone-previews .dz-preview .dz-success-mark {
+    color: #4caf50
+}
+
+.dropzone .dz-preview .dz-success-mark:after,
+.dropzone-previews .dz-preview .dz-success-mark:after {
+    content: '\ed6e'
+}
+
+.dropzone .dz-preview.dz-error .dz-error-mark,
+.dropzone .dz-preview.dz-success .dz-success-mark,
+.dropzone-previews .dz-preview.dz-error .dz-error-mark,
+.dropzone-previews .dz-preview.dz-success .dz-success-mark {
+    display: block;
+    opacity: 1
+}
+
+.dropzone .dz-preview .dz-progress,
+.dropzone-previews .dz-preview .dz-progress {
+    position: absolute;
+    top: 118px;
+    left: 8px;
+    right: 8px;
+    height: 4px;
+    background-color: #eee;
+    display: none;
+    border-radius: 2px
+}
+
+.dropzone .dz-preview .dz-progress .dz-upload,
+.dropzone-previews .dz-preview .dz-progress .dz-upload {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #00bcd4;
+    -webkit-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out
+}
+
+.dropzone .dz-preview.dz-processing .dz-progress,
+.dropzone-previews .dz-preview.dz-processing .dz-progress {
+    display: block
+}
+
+.dropzone .dz-preview.dz-success .dz-progress,
+.dropzone-previews .dz-preview.dz-success .dz-progress {
+    display: block;
+    opacity: 0;
+    -webkit-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out
+}
+
+.dropzone .dz-preview .dz-error-message,
+.dropzone-previews .dz-preview .dz-error-message {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(245, 245, 245, .8);
+    margin: 8px;
+    padding: 8px;
+    color: #f44336;
+    max-width: 100%;
+    z-index: 5;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+.dropzone .dz-preview.dz-error:hover .dz-error-message,
+.dropzone-previews .dz-preview.dz-error:hover .dz-error-message {
+    display: block;
+    opacity: 1
+}
+
+.dropzone .dz-preview.dz-error .dz-progress .dz-upload,
+.dropzone-previews .dz-preview.dz-error .dz-progress .dz-upload {
+    background: #f44336
+}
+
+.dropzone .dz-preview.dz-image-preview:hover .dz-details img,
+.dropzone-previews .dz-preview.dz-image-preview:hover .dz-details img {
+    display: block;
+    opacity: .1
+}
+
+.dropzone .dz-preview a.dz-remove,
+.dropzone-previews .dz-preview a.dz-remove {
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid #eee;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: #999;
+    margin-top: 35px;
+    cursor: pointer
+}
+
+.dropzone .dz-preview a.dz-remove:hover,
+.dropzone-previews .dz-preview a.dz-remove:hover {
+    color: #333;
+    background-color: #f5f5f5
+}
+
+.image-cropper-container {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCSVQICAjb4U/gAAAABlBMVEXMzMz////TjRV2AAAACXBIWXMAAArrAAAK6wGCiw1aAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC)
+}
+
+.eg-preview {
+    text-align: center;
+    font-size: 0
+}
+
+.eg-preview .preview {
+    margin: 10px auto 0 auto;
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 2px
+}
+
+@media (min-width:769px) {
+    .eg-preview .preview {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0
+    }
+    .eg-preview .preview+.preview {
+        margin-left: 15px
+    }
+}
+
+.eg-preview .preview-lg {
+    width: 150px;
+    height: 150px
+}
+
+.eg-preview .preview-md {
+    width: 120px;
+    height: 120px
+}
+
+.eg-preview .preview-sm {
+    width: 90px;
+    height: 90px
+}
+
+.eg-preview .preview-xs {
+    width: 60px;
+    height: 60px
+}
+
+.eg-preview .preview-xxs {
+    width: 40px;
+    height: 40px
+}
+
+@media (min-width:769px) {
+    .eg-preview {
+        white-space: nowrap;
+        max-width: 100%;
+        overflow: auto
+    }
+}
